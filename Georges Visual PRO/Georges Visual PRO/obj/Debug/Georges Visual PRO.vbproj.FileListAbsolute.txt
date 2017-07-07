@@ -1,0 +1,11 @@
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\bin\Debug\Georges Visual PRO.exe.config
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\bin\Debug\Georges Visual PRO.exe
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\bin\Debug\Georges Visual PRO.pdb
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\bin\Debug\Georges Visual PRO.xml
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\obj\Debug\Georges_Visual_PRO.Resources.resources
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\obj\Debug\Georges Visual PRO.vbproj.GenerateResource.Cache
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\obj\Debug\Georges Visual PRO.exe
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\obj\Debug\Georges Visual PRO.xml
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\obj\Debug\Georges Visual PRO.pdb
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\obj\Debug\Georges_Visual_PRO.Form2.resources
+c:\users\distil\documents\visual studio 2013\Projects\Georges Visual PRO\Georges Visual PRO\obj\Debug\Georges_Visual_PRO.Form1.resources
