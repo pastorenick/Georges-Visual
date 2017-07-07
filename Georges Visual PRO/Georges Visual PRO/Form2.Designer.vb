@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.lblRoom1 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -64,6 +65,9 @@ Partial Class Form2
         Me.btnJump = New System.Windows.Forms.Button()
         Me.lblJumpInstuct = New System.Windows.Forms.Label()
         Me.txtJump = New System.Windows.Forms.TextBox()
+        Me.tmrOn = New System.Windows.Forms.Timer(Me.components)
+        Me.tmrTimeStamp = New System.Windows.Forms.Timer(Me.components)
+        Me.lblTimeStamp = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -510,6 +514,7 @@ Partial Class Form2
         '
         'lblLine
         '
+        Me.lblLine.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblLine.BackColor = System.Drawing.Color.Black
         Me.lblLine.Location = New System.Drawing.Point(233, 921)
         Me.lblLine.Name = "lblLine"
@@ -518,6 +523,7 @@ Partial Class Form2
         '
         'btnJump
         '
+        Me.btnJump.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.btnJump.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnJump.Location = New System.Drawing.Point(995, 969)
         Me.btnJump.Name = "btnJump"
@@ -528,6 +534,7 @@ Partial Class Form2
         '
         'lblJumpInstuct
         '
+        Me.lblJumpInstuct.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblJumpInstuct.AutoSize = True
         Me.lblJumpInstuct.Location = New System.Drawing.Point(446, 979)
         Me.lblJumpInstuct.Name = "lblJumpInstuct"
@@ -538,6 +545,7 @@ Partial Class Form2
         'txtJump
         '
         Me.txtJump.AccessibleName = ""
+        Me.txtJump.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtJump.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtJump.Location = New System.Drawing.Point(713, 967)
         Me.txtJump.Multiline = True
@@ -546,11 +554,29 @@ Partial Class Form2
         Me.txtJump.TabIndex = 84
         Me.txtJump.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'tmrOn
+        '
+        Me.tmrOn.Enabled = True
+        '
+        'tmrTimeStamp
+        '
+        Me.tmrTimeStamp.Interval = 1000
+        '
+        'lblTimeStamp
+        '
+        Me.lblTimeStamp.AutoSize = True
+        Me.lblTimeStamp.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTimeStamp.Location = New System.Drawing.Point(174, 9)
+        Me.lblTimeStamp.Name = "lblTimeStamp"
+        Me.lblTimeStamp.Size = New System.Drawing.Size(0, 37)
+        Me.lblTimeStamp.TabIndex = 89
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1744, 1046)
+        Me.Controls.Add(Me.lblTimeStamp)
         Me.Controls.Add(Me.lblLine)
         Me.Controls.Add(Me.btnJump)
         Me.Controls.Add(Me.lblJumpInstuct)
@@ -640,4 +666,7 @@ Partial Class Form2
     Friend WithEvents btnJump As System.Windows.Forms.Button
     Friend WithEvents lblJumpInstuct As System.Windows.Forms.Label
     Friend WithEvents txtJump As System.Windows.Forms.TextBox
+    Friend WithEvents tmrOn As System.Windows.Forms.Timer
+    Friend WithEvents tmrTimeStamp As System.Windows.Forms.Timer
+    Friend WithEvents lblTimeStamp As System.Windows.Forms.Label
 End Class

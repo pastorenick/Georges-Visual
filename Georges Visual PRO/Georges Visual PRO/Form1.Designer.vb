@@ -68,7 +68,7 @@ Partial Class Form1
         Me.cbMotion8 = New System.Windows.Forms.CheckBox()
         Me.cbMotion7 = New System.Windows.Forms.CheckBox()
         Me.cbMotion6 = New System.Windows.Forms.CheckBox()
-        Me.btProcced = New System.Windows.Forms.Button()
+        Me.btnProcced = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -553,23 +553,23 @@ Partial Class Form1
         Me.cbMotion6.TabIndex = 41
         Me.cbMotion6.UseVisualStyleBackColor = False
         '
-        'btProcced
+        'btnProcced
         '
-        Me.btProcced.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.btProcced.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btProcced.Location = New System.Drawing.Point(205, 649)
-        Me.btProcced.Name = "btProcced"
-        Me.btProcced.Size = New System.Drawing.Size(1112, 108)
-        Me.btProcced.TabIndex = 46
-        Me.btProcced.Text = "Continue"
-        Me.btProcced.UseVisualStyleBackColor = True
+        Me.btnProcced.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.btnProcced.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnProcced.Location = New System.Drawing.Point(205, 649)
+        Me.btnProcced.Name = "btnProcced"
+        Me.btnProcced.Size = New System.Drawing.Size(1112, 108)
+        Me.btnProcced.TabIndex = 46
+        Me.btnProcced.Text = "Continue"
+        Me.btnProcced.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1604, 909)
-        Me.Controls.Add(Me.btProcced)
+        Me.Controls.Add(Me.btnProcced)
         Me.Controls.Add(Me.cbMotion10)
         Me.Controls.Add(Me.cbMotion9)
         Me.Controls.Add(Me.cbMotion8)
@@ -667,6 +667,6 @@ Partial Class Form1
     Friend WithEvents cbMotion8 As System.Windows.Forms.CheckBox
     Friend WithEvents cbMotion7 As System.Windows.Forms.CheckBox
     Friend WithEvents cbMotion6 As System.Windows.Forms.CheckBox
-    Friend WithEvents btProcced As System.Windows.Forms.Button
+    Friend WithEvents btnProcced As System.Windows.Forms.Button
 
 End Class
